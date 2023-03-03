@@ -1,12 +1,11 @@
 #include <stdio.h>
-
 int main(){
-    // float a;
-    // printf("Type the number - ");
-    // scanf("%f",&a);
-
-    for(int i=0;i;i++) {
-        printf("%d\n", i,10*i);
-    }
-    return 0;
+   int i, num;
+   /* Input a number to print table */
+   printf("Enter number to print table: ");
+   scanf("%d", &num);
+   for(i=1; i<=10; i++){
+      printf("%d * %d = %d\n", num, i, (num*i));
+   }
+   return 0;
 }
