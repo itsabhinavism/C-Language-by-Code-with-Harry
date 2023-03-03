@@ -4,7 +4,7 @@ int main(){
    /* Input a number to print table */
    printf("Enter number to print table: ");
    scanf("%d", &num);
-   for(i=1; i<=10; i++){
+   for(i=10; i>=1; i--){
       printf("%d * %d = %d\n", num, i, (num*i));
    }
    return 0;
