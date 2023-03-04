@@ -7,8 +7,8 @@ float main() {
     scanf("%f",&b);
 
     do {
-   printf("%f + %f = %f\n", b ,a,(a+b));
+   printf("%f + %f = %f\n", b ,a,(b+a));
         }
-        while (a<=11,a++);
+        while (a++,a<=10);
     return 0;
 }
