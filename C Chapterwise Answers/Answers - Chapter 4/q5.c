@@ -1,7 +1,6 @@
 #include <stdio.h>
 float  main() {
     float a,b;
-    // float a=0; 
     printf("Type the value - ");
     scanf("%f",&b);
 
