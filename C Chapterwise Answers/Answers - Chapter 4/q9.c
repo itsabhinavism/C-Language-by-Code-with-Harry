@@ -1,19 +1,19 @@
 
 #include <stdio.h>
 
-int main() {
-    int num, fact = 1;
+float main() {
+    float n, f = 1;
     
     printf("Enter a number: ");
-    scanf("%d", &num);
+    scanf("%f", &n);
     
-    int i = 1;
-    while (i <= num) {
-        fact *= i;
+    float i = 1;
+    while (i <= n) {
+        f *= i;
         i++;
     }
     
-    printf("Factorial of %d is %d", num, fact);
+    printf("Factorial of %d is %d", n,f);
     
     return 0;
 }
