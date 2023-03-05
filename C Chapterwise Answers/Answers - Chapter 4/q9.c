@@ -5,7 +5,7 @@ float main()
     printf("Type the value - ");
     scanf("%f", &n);
 
-    for (i = 1; i <= n; i++)
+    for (i = 1; i <= n;)
     {
         f = f * i;
     }
