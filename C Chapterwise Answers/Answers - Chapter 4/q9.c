@@ -1,15 +1,19 @@
+
 #include <stdio.h>
-float main()
-{
-    float i, n, f=1;
-    printf("Type the value - ");
-    scanf("%f", &n);
 
-    for (i = 1; i <= n;)
-    {
-        f = f * i;
+int main() {
+    int num, fact = 1;
+    
+    printf("Enter a number: ");
+    scanf("%d", &num);
+    
+    int i = 1;
+    while (i <= num) {
+        fact *= i;
+        i++;
     }
-    printf("The value of factorial %f is %f\n", n, f);
-
+    
+    printf("Factorial of %d is %d", num, fact);
+    
     return 0;
 }
