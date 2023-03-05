@@ -1,12 +1,15 @@
 #include <stdio.h>
-float  main() {
-    float a,b;
-    a=b-1;
+float main()
+{
+    float i=0, n, f=1;
     printf("Type the value - ");
-    scanf("%f",&b);
+    scanf("%f", &n);
 
-    for (a=0;a<=11;a++) {
-        printf("%f * %f = %f\n",b,a,(a * b));
+    for (i = 1; i <= n; i++)
+    {
+        f = f * i;
     }
+    printf("The value of factorial %f is %f\n", n, f);
+
     return 0;
 }
