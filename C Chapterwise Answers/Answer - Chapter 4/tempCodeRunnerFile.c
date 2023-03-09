@@ -1,1 +1,2 @@
-    // printf("The value of factorial %f is %f\n", n, f);
+
+    scanf("%f",&b);

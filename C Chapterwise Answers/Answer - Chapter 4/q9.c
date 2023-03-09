@@ -1,6 +1,4 @@
-
 #include <stdio.h>
-
 float main() {
     float i=1,n, f = 1;
     
