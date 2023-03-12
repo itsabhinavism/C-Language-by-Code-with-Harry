@@ -1,17 +1,33 @@
 #include <stdio.h>
 
-float main(){
-   float i=1,n,f=1;
-   printf("Type the value - ");
-   scanf("%f",&n);
+int main()
+{
+   int n, i, p = 1;
 
-   do {
-      f*=i;
-      i++;
+   printf("Enter a positive integer: ");
+   scanf("%d", &n);
+
+   for (i = 2; i <= n / 2; i++)
+   {
+      if (n % i == 0)
+      {
+         p = 0;
+         break;
+      }
    }
 
-   while (i<=n);
+   if (n == 1)
+   {
+      printf("1 is not a prime number.\n");
+   }
+   else if (p)
+   {
+      printf("%d is a prime number.\n", n);
+   }
+   else
+   {
+      printf("%d is not a prime number.\n", n);
+   }
 
-   printf("Factorial of %f is %f\n",n,f);
    return 0;
 }
