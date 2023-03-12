@@ -4,7 +4,7 @@
 float main()
 {
     int n, prime = 1;
-    printf("Type a positive interger - ");
+    printf("Type a positive integer - ");
     scanf("%d", &n);
 
     for (int i = 2; i < n; i++)
