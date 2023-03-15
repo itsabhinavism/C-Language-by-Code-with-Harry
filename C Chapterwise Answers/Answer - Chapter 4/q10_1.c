@@ -6,7 +6,7 @@ float main()
     int n, prime = 1;
     printf("Type a positive integer - ");
     scanf("%d", &n);
-
+ 
     for (int i = 2; i < n; i++)
     {
         if (n % i == 0)
@@ -19,6 +19,11 @@ float main()
     if (prime == 0)
     {
         printf("This is not a prime number.");
+    }
+
+    else if (n == 1 || n == 0)
+    {
+        printf("This is not a prime number.\n");
     }
 
     else
