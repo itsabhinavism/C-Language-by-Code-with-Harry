@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-float average(int a, int b, int c);
+float average(int d, int e, int f);
 
 int main()
 {
@@ -20,9 +20,9 @@ int main()
     return 0;
 }
 
-float average(int a, int b, int c)
+float average(int d, int e, int f)
 {
     float result;
-    result = (float)(a + b + c) / 3;
+    result = (float)(d + e + f) / 3;
     return result;
 }

@@ -1,21 +1,2 @@
-#include <stdio.h>
+8:00:00
 
-void main()
-{
-    int n;
-    printf("typ n - ");
-    scanf("%d", &n);
-
-    for (int i = 1; i <= n; i++)
-        
-    {
-        for (int j = 1; j <= i; j++)
-
-        {
-            printf("* ");
-        }
-        printf("\n");
-    }
-}
-
-08;00;00
